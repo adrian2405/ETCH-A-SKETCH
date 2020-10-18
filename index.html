@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <title>ETCH-A-SKETCH</title>
+</head>
+
+<body>
+
+    <header>
+
+        <h1>ETCH-A-SKETCH</h1>
+
+    </header>
+
+    <div id="modes">
+
+        <button id="resize">New Grid</button>
+            <form action="#">
+                <fieldset>
+                    <legend>Color mode:</legend>
+                    <input type="radio" id="black" name="color mode" value="black" checked>
+                    <label for="black">Black</label><br>
+                    <input type="radio" id="degradedBlack" name="color mode" value="degradedBlack">
+                    <label for="degradedBlack">Degraded black</label><br>
+                    <input type="radio" id="random" name="color mode" value="random color">
+                    <label for="random">Random color</label><br>
+                    <input type="radio" id="erase" name="color mode" value="erase">
+                    <label for="erase">Erase mode</label>
+                </fieldset>
+            </form>
+
+        <button id="clear">Clear</button>
+
+    </div>
+
+    <div id="container"></div>
+
+    <footer>
+        <p>Design by Adrián</p>
+    </footer>
+
+    <script src="script/script.js"></script>
+</body>
+
+</html>
